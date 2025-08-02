@@ -112,3 +112,41 @@ main section {
     /* debug */
     height: 400px;
 }
+
+/* /CTA section */
+/* /MAIN */
+
+/* FOOTER  */
+.footer {
+    background-color: rgb(35, 35, 35);
+    padding: 5px;
+}
+
+/* Footer top  */
+.footer-top>div {
+    /* debug */
+    height: 250px;
+}
+
+.footer-top .large {
+    width: 30%;
+    background-color: rgb(255, 129, 150);
+}
+
+.footer-top .list-section {
+    width: 70%;
+}
+
+.footer-top .list {
+    background-color: aquamarine;
+    width: 100%;
+    border-left: 1px dotted white;
+    /* debug */
+    height: 250px;
+}
+
+/* /Footer top */
+
+/* Footer bottom */
+
+/* /Footer bottom */
