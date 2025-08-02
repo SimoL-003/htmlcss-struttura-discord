@@ -1,3 +1,8 @@
+/* Custom properties */
+:root {
+    --padding-lg: 30px;
+}
+
 /* RESET */
 * {
     padding: 0;
@@ -54,3 +59,24 @@ img {
 }
 
 /* /HEADER */
+
+/* MAIN */
+
+main section {
+    padding: var(--padding-lg);
+}
+
+/* Hero section */
+.hero-section {
+    background-color: blue;
+}
+
+.hero-section .container {
+    width: 60%;
+    background-color: pink;
+
+    /* debug */
+    height: 200px;
+}
+
+/* /Hero section */
