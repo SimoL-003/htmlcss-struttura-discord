@@ -14,6 +14,11 @@ img {
     max-width: 100%;
 }
 
+/* UTILITIES */
+.bg-gray {
+    background-color: lightgray;
+}
+
 /* GENERAL */
 .container {
     width: 70%;
@@ -80,3 +85,20 @@ main section {
 }
 
 /* /Hero section */
+
+/* Image-text section */
+.image-text-section div {
+
+    /* debug */
+    height: 250px;
+}
+
+.image-text-section .img {
+    width: 60%;
+    background-color: rgb(52, 254, 254);
+}
+
+.image-text-section .text {
+    width: 40%;
+    background-color: lightcoral;
+}
