@@ -102,3 +102,13 @@ main section {
     width: 40%;
     background-color: lightcoral;
 }
+
+/* /Image-text section */
+
+/* CTA section */
+.cta-section div {
+    background-color: green;
+
+    /* debug */
+    height: 400px;
+}
