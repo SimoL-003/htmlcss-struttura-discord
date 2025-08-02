@@ -8,3 +8,49 @@
 img {
     max-width: 100%;
 }
+
+/* GENERAL */
+.container {
+    width: 70%;
+}
+
+.flex {
+    display: flex;
+}
+
+/* HEADER */
+.header {
+    background-color: aqua;
+    padding: 10px;
+}
+
+.header>div {
+    background-color: goldenrod;
+    padding: 5px 3px;
+    align-items: center;
+}
+
+.logo,
+.login {
+    width: 20%;
+    padding: 5px 3px;
+}
+
+.navbar {
+    width: 60%;
+}
+
+.navbar ul {
+    list-style-type: none;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 10px;
+}
+
+.login {
+    text-align: end;
+}
+
+/* /HEADER */
