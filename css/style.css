@@ -14,18 +14,20 @@ img {
     max-width: 100%;
 }
 
-/* UTILITIES */
-.bg-gray {
-    background-color: lightgray;
-}
-
-/* GENERAL */
+/* COMMON */
+/* Layout */
 .container {
     width: 70%;
+    max-width: 900px;
 }
 
 .flex {
     display: flex;
+}
+
+/* Utilities */
+.bg-gray {
+    background-color: lightgray;
 }
 
 /* HEADER */
@@ -78,6 +80,7 @@ main section {
 
 .hero-section .container {
     width: 60%;
+    max-width: 700px;
     background-color: pink;
 
     /* debug */
