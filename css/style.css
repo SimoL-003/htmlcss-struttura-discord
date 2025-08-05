@@ -40,8 +40,8 @@ img {
     align-items: center;
 }
 
-.logo,
-.login {
+header .logo,
+header .login {
     width: 20%;
     padding: 5px 3px;
 }
@@ -119,10 +119,13 @@ main section {
 /* FOOTER  */
 .footer {
     background-color: rgb(35, 35, 35);
-    padding: 5px;
 }
 
 /* Footer top  */
+.footer-top {
+    padding: 5px var(--padding-lg) 20px;
+}
+
 .footer-top>div {
     /* debug */
     height: 250px;
@@ -138,15 +141,41 @@ main section {
 }
 
 .footer-top .list {
-    background-color: aquamarine;
+    background-color: aqua;
     width: 100%;
     border-left: 1px dotted white;
-    /* debug */
-    height: 250px;
 }
 
 /* /Footer top */
 
+.footer hr {
+    color: gray;
+}
+
 /* Footer bottom */
+.footer-bottom {
+    padding: 15px var(--padding-lg) 0;
+}
+
+.footer-bottom>div {
+    background-color: aquamarine;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.footer-bottom .logo,
+.footer-bottom .button {
+    background-color: lightgray;
+}
+
+.footer-bottom .logo {
+    margin-left: 0;
+}
+
+.footer-bottom .button {
+    margin-right: 0;
+    padding: 2px 7px;
+}
 
 /* /Footer bottom */
+/* /FOOTER */
