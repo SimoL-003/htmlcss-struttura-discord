@@ -163,11 +163,6 @@ main section {
     padding: 15px 0;
 }
 
-.footer-bottom .logo,
-.footer-bottom .button {
-    background-color: lightgray;
-}
-
 .footer-bottom .logo {
     margin-left: 0;
 }
